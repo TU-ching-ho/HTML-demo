@@ -9,6 +9,7 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 
     <style>
+        /*
         form {
             width: 50%;
             margin: 24px auto;
@@ -23,6 +24,23 @@
             label,
             textarea {
                 font-size: 18px;
+            }
+        }
+        */
+        input {
+            margin-top: 0.8rem;
+            width: 400px;
+        }
+
+        label {
+            font-size: 24px;
+        }
+
+        @media screen and (max-width:768px) {
+
+            label,
+            input {
+                width: 90%;
             }
         }
     </style>
@@ -46,9 +64,10 @@
             <p>
                 <button type="submit">計算</button>
             </p>
-            <a href="./index.html">回首頁</a>
+
 
         </form>
+        <a href="./index.html">回首頁</a>
     </div>
 
 </body>

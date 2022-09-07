@@ -64,11 +64,11 @@ body {
 }
 
 form {
-    background-color: darkred;
+    background-color: rgb(91, 75, 235);
     padding: 12px 0px;
     margin: 6px;
     border-radius: 12px;
-    color: wheat;
+    color: rgb(15, 14, 11);
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ label {
 }
 
 button[type="submit"] {
-    background-color: greenyellow;
+    background-color: rgb(221, 235, 163);
     font-size: 20px;
     width: 100px;
     height: 40px;
@@ -146,5 +146,5 @@ a:hover {
 }
 
 #main-table td:last-child {
-    background-color: brown;
+    background-color: rgb(233, 23, 23);
 }
