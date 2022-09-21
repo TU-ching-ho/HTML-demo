@@ -21,6 +21,11 @@ body {
     border-radius: 0.8rem
 }
 
+.sub-title {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: yellow;
+}
 
 
 .title {
@@ -33,6 +38,11 @@ body {
     text-align: center;
     line-height: 4rem;
     border-radius: 0.8rem
+}
+
+.title {
+    border-style: dotted;
+
 }
 
 .text-1 {
@@ -80,8 +90,10 @@ label {
     margin: 6px;
 }
 
-button[type="submit"] {
-    background-color: rgb(221, 235, 163);
+button[type="button"],
+[type="reset"] {
+    background-color: rgb(32, 31, 11);
+    color: aliceblue;
     font-size: 20px;
     width: 100px;
     height: 40px;
@@ -110,6 +122,7 @@ ul a {
 
 a:hover {
     color: blue;
+    text-align: center;
 }
 
 #image {
